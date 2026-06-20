@@ -1,0 +1,51 @@
+START
+
+Create CustomLinkedList class
+
+Create Node class
+    data
+    next
+
+INSERT Method
+    Create new node
+    If list is empty
+        head = new node
+    Else
+        Traverse to end of list
+        Add new node
+
+DELETE Method
+    If list is empty
+        Return
+
+    If head contains data
+        Move head to next node
+        Return
+
+    Traverse list
+    If matching data found
+        Remove node by changing links
+
+ITERATOR Class
+    Start at head
+
+    hasNext()
+        Return true if current node exists
+
+    next()
+        Return current data
+        Move to next node
+
+MAIN PROGRAM
+    Create linked list
+
+    Read integers from file
+    Insert integers into linked list
+
+    Display original list using iterator
+
+    Delete a value
+
+    Display updated list using iterator
+
+END
